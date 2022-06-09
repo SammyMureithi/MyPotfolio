@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(Images/mypic.jpg);
+}
+.navigation{
+    float: right;
+    margin-top: 30px;
+   
+}
+.navigation a{
+    margin-right: 15px;
+  border: solid greenyellow 2px;
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.myBody{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    align-items: center;
+}
+.myBody1{
+    color: white;
+}
+.myBody1 input{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: solid white 2px;
+    border-radius: 12px;
+}
+.myBody h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    text-decoration: underline solid greenyellow;
+}
+.myBody p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+ 
+}
+.myBody span{
+    font-size: 60px;
+    color: greenyellow;
+    font-weight: 800;
+}
+
+
+.myProjects{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.project2{
+    display: inline-flex;
+    margin-left: 20px;
+}
+.project1{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.myImage img{
+    margin-right: 20px;
+}
+.description{
+    height: fit-content;
+  background-color: greenyellow;
+  margin-right: 20px;
+  align-self: center;
+ 
+}
+.description h1{
+    padding: 20px;
+   align-items: center;
+}
+.description p{
+    font-size: 20px;
+    padding: 15px;
+    height: 200px;
+}
+.project3{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-content: center;
+    align-self: center;
+}
+#callClients{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: solid brown 2px;
+    border-radius: 12px;
+    padding: 2px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+#title{
+    font-size: 40px;
+    margin-left: 30%;
+    font-weight: 900;
+    text-decoration: underline goldenrod;
+}
+#myLegend{
+margin-left: 40%;
+
+
+}
+#myLegendImage{
+    border-radius: 40%;
+}
+#myAboutForm{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+  
+    
+}
+#fieldset{
+    border-radius: 12px;
+    background-color: bisque;
+}
